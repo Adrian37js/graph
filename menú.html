@@ -2,17 +2,36 @@
 <html>
 <head>
   <title>Mi Página Web</title>
-  <link rel="stylesheet" href="estilos.css">
+  <link rel="stylesheet" href="estilos.css"> <!-- Agrega el enlace a tu archivo CSS -->
 </head>
 <body>
-  <h1>Gráficos y Textos</h1>
-
   <div class="container">
-    <div class="graphic">
-      <span>1</span>
+    <h1>Menú</h1>
+    <div class="menu">
+      <div class="square">
+        <img src="imagenes/country.png" alt="¿De que país eres?">
+        <h3>Tema 1</h3>
+        <ul class="options">
+          <li>Opción 1.1</li>
+          <li>Opción 1.2</li>
+          <li>Opción 1.3</li>
+        </ul>
+      </div>
+      <div class="square">
+        <img src="imagen2.jpg" alt="Imagen 2">
+        <h3>Tema 2</h3>
+        <ul class="options">
+          <li>Opción 2.1</li>
+          <li>Opción 2.2</li>
+          <li>Opción 2.3</li>
+        </ul>
+      </div>
+      <!-- Agrega más cuadrados según tus necesidades -->
     </div>
+    <div id="chart"></div> <!-- Aquí se mostrará el gráfico generado dinámicamente -->
   </div>
-
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in purus vel turpis malesuada ultrices. Sed dictum gravida elementum. Fusce viverra rhoncus velit eget consectetur. Donec ut finibus tortor. Proin eget nulla sit amet turpis eleifend vehicula. Phasellus vel leo id odio lobortis elementum.</p>
+  
+  <script src="script.js"></script> <!-- Agrega el enlace a tu archivo JavaScript -->
 </body>
 </html>
+
